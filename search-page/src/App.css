@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+.bodys{
+background: red;
+}
+tr, th {
+  border: 1px solid black;
+  background-color: violet;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+   border-collapse: collapse;
+   padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+   text-align: center;
+
+
+
+}
+
+th, td {
+  border: 1px solid black;
+  width: 170px;
+
+
+
+}
+.btn{
+background-color: red;
+
+}
