@@ -1,15 +1,12 @@
 import React from 'react';
-import Users from './Users';
-
-
+import PostForm from './PostForm';
 
 import './App.css';
 
 function App() {
   return (
-    <div >
-
-     < Users />
+    <div className="App">
+    < PostForm />
     </div>
   );
 }

@@ -30,12 +30,15 @@ export default class Users extends React.Component {
   const {term , postdata} = this.state;
 
       return (
-        <div style={{alignitems:'center'}}>
-        <div> <h1> Quze Course List </h1></div>
-        <form>
-        Search-by-course : <input type="text"  onChange={this.searchHandler} value={term} />
+
+        <div style = {{margin : ' 0 auto' , width : '70%'}}>
+       <div style={{margin: '5px' }}>
+       <h1>Quze Courses Table</h1>
+        <form  >
+        Search-by-course : <input  type="text"  onChange={this.searchHandler} value={term} />
         </form>
-        <tr >
+        </div>
+        <tr style={{ background:'red'}} >
         <th>CourseID</th>
         <th>Title</th>
         <th>Duration</th>

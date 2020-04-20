@@ -1,10 +1,9 @@
 .App {
   text-align: center;
+
 }
 
-.bodys{
-background: red;
-}
+
 tr, th {
   border: 1px solid black;
   background-color: violet;
@@ -19,11 +18,15 @@ tr, th {
 
 
 
+
+
 }
 
 th, td {
   border: 1px solid black;
   width: 170px;
+
+
 
 
 
